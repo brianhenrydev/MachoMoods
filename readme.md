@@ -17,7 +17,9 @@ He has some very specific design requirements in mind, which surprised you becau
 >
 >Underneath this, all nine moods and encouraging quotes should be displayed in a three-column format. Each mood should have the following format: 
 >
->The name of the mood should be at the top and centered. The image for the mood should be beneath the name. Under the image should be a box containing the encouraging quotes for the mood. The box should have “Macho Advice:” on the left and the two quotes vertically aligned on the right.
+>The name of the mood should be at the top and centered.
+The image for the mood should be beneath the name.
+Under the image should be a box containing the encouraging quotes for the mood. The box should have “Macho Advice:” on the left and the two quotes vertically aligned on the right.
 >
 >Mr. Savage is a fan of flare. He expects loud fonts, bright colors, shadows, rounded borders, and more. He wants you to have creative freedom, but if you present him with a boring, black and white, jumbled mess, he’ll probably smash it to pieces.
 > 

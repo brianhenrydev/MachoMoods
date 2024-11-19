@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header-div {
+  display: block;
+  font-size: 120px;
+  text-align: center;
+  color: #ED1C24;
+  height: 9vh;
+  margin-bottom: 4vh;
+  width: 100%;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#by-savage {
+  margin-top: 2px;
+  margin-bottom: 40px;
+  font-size: 42px;
+  color: #0000FF;
+  text-align: center;
+}
+
+#container {
+  font-family: "Bebas Neue", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+  font-weight: 400;
+  font-style: oblique;
+  max-width: 96%;
+  margin-bottom: 2vh;
+
+}
+
+.mood-card {
+  background-color: #ED1C24;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 30px solid #FFC600;
+  padding: 1rem;
+  margin: 15px;
+  box-shadow: 25px 25px;
+}
+
+.mood-card:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+
+img {
+  border-radius: 40px;
+  max-width: 12vw;
+  height: auto;
+}
+
+.advice {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  min-width: 100%;
+}
+
+
+
+#macho-advice {
+  max-width: 18%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 70px;
+}
+
+.quotes--div {
+  font-size: 40px;
+}
