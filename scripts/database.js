@@ -90,3 +90,8 @@ export const database = [
 		],
 	},
 ];
+
+export const getDB = () =>
+	database.map((emotion) => (emotion));
+
+console.log(getDB())

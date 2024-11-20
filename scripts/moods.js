@@ -1,7 +1,7 @@
-import { database } from "./database.js";
+import { getDB } from "./database.js";
 
 export const genMoodHtml = () => {
-	const db = database;
+	const db = getDB();
 
 	const moodHTML = db.map(
 		(mood) =>
