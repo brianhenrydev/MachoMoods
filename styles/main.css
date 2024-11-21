@@ -3,37 +3,14 @@ body {
 
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#header-div {
-  display: block;
-  font-size: 120px;
-  text-align: center;
-  color: #ED1C24;
-  height: 9vh;
-  margin-bottom: 4vh;
-  width: 100%;
-  font-family: "Rock Salt", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-#by-savage {
-  margin-top: 2px;
-  margin-bottom: 40px;
-  font-size: 42px;
-  color: #0000FF;
-  text-align: center;
-}
 
 #container {
   font-family: "Bebas Neue", sans-serif;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+  justify-content: space-evenly;
+
   gap: 70px;
   font-weight: 400;
   font-style: oblique;
@@ -42,24 +19,47 @@ main {
 
 }
 
+#header-div {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #ED1C24;
+  height: 9vh;
+  margin-bottom: 4vh;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+#by-savage {
+  margin-top: 0.01rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #0000FF;
+  text-align: center;
+}
+
+
 .mood-card {
   background-color: #ED1C24;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 30px solid #FFC600;
+  border: 1rem solid #FFC600;
   padding: 1rem;
-  margin: 15px;
+  max-width: 320px;
   box-shadow: 25px 25px;
+  transition: transform 1.25s linear(0 0%, 0 2.27%, 0.02 4.53%, 0.04 6.8%, 0.06 9.07%, 0.1 11.33%, 0.14 13.6%, 0.25 18.15%, 0.39 22.7%, 0.56 27.25%, 0.77 31.8%, 1 36.35%, 0.89 40.9%, 0.85 43.18%, 0.81 45.45%, 0.79 47.72%, 0.77 50%, 0.75 52.27%, 0.75 54.55%, 0.75 56.82%, 0.77 59.1%, 0.79 61.38%, 0.81 63.65%, 0.85 65.93%, 0.89 68.2%, 1 72.7%, 0.97 74.98%, 0.95 77.25%, 0.94 79.53%, 0.94 81.8%, 0.94 84.08%, 0.95 86.35%, 0.97 88.63%, 1 90.9%, 0.99 93.18%, 0.98 95.45%, 0.99 97.73%, 1 100%);
 }
 
 .mood-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 1rem;
   margin-top: 0px;
+  margin-right: 1rem;
 }
 
 
@@ -70,6 +70,7 @@ img {
 }
 
 .advice {
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -83,9 +84,9 @@ img {
   max-width: 18%;
   display: flex;
   flex-wrap: wrap;
-  font-size: 70px;
+  font-size: 1rem;
 }
 
 .quotes--div {
-  font-size: 40px;
+  font-size: 1rem;
 }
